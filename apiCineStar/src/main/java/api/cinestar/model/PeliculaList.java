@@ -37,7 +37,5 @@ public void setSinopsis(String sinopsis) {
 }
 
 
-
-
 }
 
