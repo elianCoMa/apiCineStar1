@@ -43,20 +43,14 @@ public List<PeliculaList> getPeliculas(@PathVariable("idx") String idx){
 		return(List<PeliculaList>) iPeliculaList.getPeliculas(idx.equals("cartelera")? 1: 2);
 		return null;		
 }
-
 @GetMapping("/pelicula/{id}")
 public Pelicula getPelicula(@PathVariable("id") int id) {
 	return (Pelicula) iPelicula.getPelicula(id);
 	}
-
 @GetMapping("/cines")
 public List<Cine> getCines(){
 	return (List<Cine>) iCine.getCines();
 }
-
-
-
-
 
 }
 
