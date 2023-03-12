@@ -1,5 +1,4 @@
 package api.cinestar.model;
-
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 
@@ -35,7 +34,5 @@ public String getSinopsis() {
 public void setSinopsis(String sinopsis) {
 	Sinopsis = sinopsis;
 }
-
-
 }
 
