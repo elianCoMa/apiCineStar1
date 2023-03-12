@@ -7,7 +7,6 @@ import jakarta.persistence.Id;
 
 @Entity
 public class Pelicula {
-
 	@Id
 	private int id ;
 	private String Titulo ;
@@ -87,7 +86,5 @@ public class Pelicula {
 	public void setSinopsis(String sinopsis) {
 		Sinopsis = sinopsis;
 	}
-
-	
 	
 }
