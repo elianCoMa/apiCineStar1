@@ -1,14 +1,11 @@
 package api.cinestar.model;
 
-
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
-
 
 @Entity
 
 public class Cine {
-	
 	@Id
 	private int id;
 	private String RazonSocial;
@@ -60,9 +57,6 @@ public class Cine {
 	public void setDetalle(String detalle) {
 		Detalle = detalle;
 	}
-	
-	
-	
-	
+
 	
 }
