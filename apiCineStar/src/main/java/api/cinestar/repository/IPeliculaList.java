@@ -1,5 +1,4 @@
 package api.cinestar.repository;
-
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
@@ -13,5 +12,4 @@ public interface IPeliculaList extends JpaRepository<PeliculaList, Integer>{
 
 	@Query(value ="{call sp_getPeliculas(:id)}" , nativeQuery = true )
 	List<PeliculaList> getPeliculas(int id);
-	
 }
